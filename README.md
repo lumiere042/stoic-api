@@ -1,3 +1,5 @@
-# Random quotes from great Stoic philosophers using https://stoic-wisdom.com/api
+# Stoic Quotes
 
-Practicing with APIs with vanilla javascript
+Random quotes from great Stoic philosophers using https://stoic-wisdom.com/api
+
+Practice project using APIs with vanilla javascript and implementing responsive design.
