@@ -3,7 +3,7 @@ const quoteText = document.querySelector('.quote-text')
 const quoteAuthor = document.querySelector('.quote-author')
 const btn = document.querySelector('.btn')
 
-
+window.addEventListener("DOMContentLoaded", getQuote)
 btn.addEventListener("click", getQuote)
 
 async function getQuote(){
