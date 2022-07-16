@@ -1,0 +1,75 @@
+@use 'abstracts' as i;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2F3032;
+}
+
+.title{
+    text-align: center;
+    font-family: i.$ibarra;
+    color: #CDBE78;
+    letter-spacing: 0.10rem;
+    margin-top: 15px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+
+    .quote-source{
+        font-family: i.$raleway;
+        font-weight: 100;
+        color: #B2B1B9;
+        font-size: 1rem;
+        letter-spacing: 0.25em;
+        margin-bottom: 10px;
+    }
+
+    .quote-text{
+        font-family: i.$ibarra;
+        font-size: 2.8rem;
+        font-weight: 500;
+        color: #FFFF;
+        margin-bottom: 15px;
+    }
+
+    .quote-author{
+        font-family: i.$montserrat;
+        font-weight: 400;
+        font-size: 1.7rem;
+        color: #EDE68A;
+        margin-bottom: 20px;
+    }
+
+    .btn{
+        background-color: transparent;
+        border-color: #FFF;
+        width: 50%;
+        margin: auto;
+        font-family: i.$ibarra;
+        color: #FFF;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .btn:hover{
+        background: #FFF;
+        color: #4A403A;
+    }
+}
